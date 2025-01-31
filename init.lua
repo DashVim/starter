@@ -1,4 +1,4 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-dash = require("config.dash")
+-- bootstrap lazy.nvim, DashVim and your plugins
+local dash = require("config.dash")
 dash.ensure_lazy_installed()
 dash.load()
